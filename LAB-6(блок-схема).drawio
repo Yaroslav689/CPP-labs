@@ -1,0 +1,133 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Сторінка-1" id="NJQCsDaYlHaawZxCHsYM">
+    <mxGraphModel dx="1339" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#FFFFFF,#000000);" value="початок" vertex="1">
+          <mxGeometry height="40" width="140" x="330" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-2" edge="1" parent="1" source="lPSPDTlAIz_RzX4qZYME-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="lPSPDTlAIz_RzX4qZYME-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="300" as="sourcePoint" />
+            <mxPoint x="402" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#FFFFFF,#1A1A1A);" value="product = 1" vertex="1">
+          <mxGeometry height="40" width="140" x="330" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="220" />
+              <mxPoint x="400" y="200" />
+            </Array>
+            <mxPoint x="400" y="220" as="sourcePoint" />
+            <mxPoint x="400" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-5" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=light-dark(#FFFFFF,#4D4D4D);" value="ввід n" vertex="1">
+          <mxGeometry height="40" width="140" x="330" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-6" edge="1" parent="1" source="lPSPDTlAIz_RzX4qZYME-5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="340" as="sourcePoint" />
+            <mxPoint x="400" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399.5" y="390" as="sourcePoint" />
+            <mxPoint x="399.5" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#FFFFFF,#1A1A1A);" value="number = n % 10" vertex="1">
+          <mxGeometry height="40" width="140" x="329.25" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="так" vertex="1">
+          <mxGeometry height="30" width="60" x="389" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-11" edge="1" parent="1" source="lPSPDTlAIz_RzX4qZYME-16" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="lPSPDTlAIz_RzX4qZYME-12" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.3518" as="geometry">
+            <Array as="points">
+              <mxPoint x="599.94" y="355" />
+            </Array>
+            <mxPoint x="455" y="349.9999999999999" as="sourcePoint" />
+            <mxPoint x="580" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=light-dark(#FFFFFF,#4D4D4D);" value="вивід product" vertex="1">
+          <mxGeometry height="40" width="140" x="529" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ні" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399.5" y="470" as="sourcePoint" />
+            <mxPoint x="399.5" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-15" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="number != 7?" vertex="1">
+          <mxGeometry height="70" width="147.5" x="326.25" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-16" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="n &amp;gt; 0?" vertex="1">
+          <mxGeometry height="70" width="147.5" x="326.25" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=light-dark(#FFFFFF,#000000);" value="кінець" vertex="1">
+          <mxGeometry height="40" width="140" x="530" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="599.5" y="460" as="sourcePoint" />
+            <mxPoint x="599.5" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399.5" y="580" as="sourcePoint" />
+            <mxPoint x="399.5" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="так" vertex="1">
+          <mxGeometry height="30" width="60" x="389" y="579" as="geometry" />
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#FFFFFF,#1A1A1A);" value="product *= number" vertex="1">
+          <mxGeometry height="40" width="140" x="330" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399.5" y="660" as="sourcePoint" />
+            <mxPoint x="399.5" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=light-dark(#FFFFFF,#1A1A1A);" value="n = n / 10" vertex="1">
+          <mxGeometry height="40" width="140" x="330" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-28" edge="1" parent="1" source="lPSPDTlAIz_RzX4qZYME-15" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="lPSPDTlAIz_RzX4qZYME-25" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0415" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="545" />
+              <mxPoint x="520" y="720" />
+            </Array>
+            <mxPoint x="490" y="600" as="sourcePoint" />
+            <mxPoint x="473.75" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ні" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="lPSPDTlAIz_RzX4qZYME-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.7832" as="geometry">
+            <Array as="points">
+              <mxPoint x="278" y="720" />
+              <mxPoint x="278" y="355" />
+            </Array>
+            <mxPoint x="328" y="720" as="sourcePoint" />
+            <mxPoint x="324.25" y="354.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
